@@ -2,7 +2,7 @@
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Gabs0403/tetris/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Gabs0403/tetris)
 
-
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10265/badge)](https://www.bestpractices.dev/projects/10265)
 
 This Tetris game was developed as part of my **Programming II** class. It is a classic block-stacking puzzle game where the player must arrange falling shapes to complete full rows and earn points.
 
