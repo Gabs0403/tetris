@@ -11,7 +11,6 @@ This Tetris game was developed as part of my **Programming II** class. It is a c
 - **Shape Movement**: Move shapes left, right, and down.
 - **Rotation**: Rotate shapes to fit them into place.
 - **Next Shape Preview**: See the upcoming shape to plan ahead.
-- **Score Tracking**: The game keeps track of the player's score.
 - **Increasing Difficulty**: The game speeds up as the player advances.
 
 ## Future Improvements
@@ -22,10 +21,11 @@ This Tetris game was developed as part of my **Programming II** class. It is a c
 
 ## Installation
 
-1. **Clone the Repository**  
-   Open a terminal and run the following command:
-   ```bash
-   git clone https://github.com/yourusername/yourrepository.git
+To set up the project, first, clone the repository using `git clone https://github.com/yourusername/yourrepository.git` and navigate to the project folder. 
+Ensure you have a C++ compiler installed: on Windows, use MinGW or Visual Studio; on Mac, install Xcode Command Line Tools (`xcode-select --install`); on Linux, install g++ (`sudo apt install g++`). 
+Next, install **SFML**: download it from [SFML](https://www.sfml-dev.org/download.php) for Windows, use Homebrew (`brew install sfml`) on Mac, or install it on Linux via `sudo apt-get install libsfml-dev`. 
+Once dependencies are installed, compile the project by running `g++ -o tetris main.cpp -lsfml-graphics -lsfml-window -lsfml-system` in the terminal, then execute `./tetris` to start the game.
+
 
 
 
